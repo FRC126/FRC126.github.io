@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2022flwp",
+        "defaultValue":"2022nhgrs",
         "required":"true",
         "disabled":"true"
       },
@@ -22,11 +22,7 @@ var config_data = `
         "code":"l",
         "type":"level",
         "choices":{
-          "qm":"Quals<br>",
-          "ef":"Eighth-Final<br>",
-          "qf":"Quarter-Final<br>",
-          "sf":"Semi-Final<br>",
-          "f":"Final"
+          "qm":"Quals<br>"
         },
         "defaultValue":"qm",
         "required":"true"
@@ -36,19 +32,6 @@ var config_data = `
         "type":"match",
         "min":1,
         "max":100,
-        "required":"true"
-      },
-     "Robot": {
-        "code":"r",
-        "type":"robot",
-        "choices":{
-          "r1":"Red-1",
-          "b1":"Blue-1<br>",
-          "r2":"Red-2",
-          "b2":"Blue-2<br>",
-          "r3":"Red-3",
-          "b3":"Blue-3"
-        },
         "required":"true"
       },
       "Team #": {
@@ -123,12 +106,6 @@ var config_data = `
           "x":"Not Attempted"
         },
         "defaultValue":"x"
-      },
-      "Shooting Spot": {
-        "code":"ss",
-        "title": "Shooting Spot",
-        "type":"field_image",
-        "filename":"2022/field_image.png"
       }
     },
     "endgame": {
@@ -150,26 +127,8 @@ var config_data = `
         "code":"be",
         "title": "Started climb before EndGame",
         "type":"bool"
-      },
-      "Num of Robots Climbed": {
-        "code":"cn",
-        "title": "# of alliance bots climbed",
-        "type":"counter"
       }
     },
-    "postmatch": {
-      "Driver Skill": {
-        "code":"ds",
-        "title": "Driver Skill",
-        "type":"radio",
-        "choices":{
-          "n":"Not Effective<br>",
-          "a":"Average<br>",
-          "v":"Very Effective<br>",
-          "x":"Not Observed"
-        },
-        "defaultValue":"x"
-      },
       "Defense Rating": {
         "code":"dr",
         "title": "Defense Rating",
