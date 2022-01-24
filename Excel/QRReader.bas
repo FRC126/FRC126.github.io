@@ -45,7 +45,6 @@ Sub saveData(inp As String)
     mapper.Add "e", "eventCode"
     mapper.Add "l", "matchLevel"
     mapper.Add "m", "matchNumber"
-    mapper.Add "r", "robot"
     mapper.Add "t", "teamNumber"
 
     ' Additional custom mapping
