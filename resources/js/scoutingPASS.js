@@ -458,10 +458,6 @@ function validateData() {
 	for (rf of requiredFields) {
 		// Robot requires special (radio) validation
 		if (rf == "r") {
-			if (!validateRobot()) {
-				errStr += rf + " "
-				ret = false
-			}
 		} else if (rf == "l") {
 			if (!validateLevel()) {
 				errStr += rf + " "
