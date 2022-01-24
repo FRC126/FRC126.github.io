@@ -129,6 +129,7 @@ var config_data = `
         "type":"bool"
       }
     },
+    "postmatch": {
       "Defense Rating": {
         "code":"dr",
         "title": "Defense Rating",
