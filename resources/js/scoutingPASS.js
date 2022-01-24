@@ -161,7 +161,6 @@ function addNumber(table, idx, name, data) {
 	if ((data.type == 'team') ||
 	 	  (data.type == 'match'))
 	{
-		inp.setAttribute("onchange", "updateMatchStart(event)");
 	}
   if (data.hasOwnProperty('min')) {
     inp.setAttribute("min", data.min);
