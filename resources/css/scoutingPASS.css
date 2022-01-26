@@ -6,6 +6,13 @@
     src: url("../fonts/alexisv3.ttf") format('truetype');
 }
 
+@font-face {
+    font-family: 'OriginTech';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/origintech.ttf") format('truetype');
+}
+
 html, body{
     height: 100%;
     width: 100%;
@@ -59,12 +66,12 @@ html, body{
 }
 
 h1{
-    font-family: Alexis;
+    font-family: OriginTech;
     text-align: center;
 }
 
 h2{
-    font-family: Alexis;
+    font-family: OriginTech;
     text-align: center;
 }
 
@@ -91,13 +98,13 @@ h2{
 }
 
 h1 .odd {
-    font-family: Alexis;
+    font-family: OriginTech;
     text-align: center;
     color: #0AB4EC;
 }
 
 h1 .even {
-    font-family: Alexis;
+    font-family: OriginTech;
     text-align: center;
     color: #42B333;
 }
