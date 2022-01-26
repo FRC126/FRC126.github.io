@@ -183,7 +183,7 @@ function addNumber(table, idx, name, data) {
     cell1 = row.insertCell(0);
     cell1.setAttribute("id", "teamname-label");
     cell1.setAttribute("colspan", 2);
-    cell1.setAttribute("style", "text-align: center;");
+    cell1.setAttribute("style", "text-align: center; font-family: Roboto;");
     return idx+2;
   }
   return idx+1;
