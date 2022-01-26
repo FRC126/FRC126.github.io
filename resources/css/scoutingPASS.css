@@ -54,18 +54,23 @@ html, body{
 
 #prematch{
     display: table;
+    font-family: Roboto;
 }
 
 #auton{
+    font-family: Roboto;
 }
 
 #teleop{
+    font-family: Roboto;
 }
 
 #endgame{
+    font-family: Roboto;
 }
 
 #postmatch{
+    font-family: Roboto;
 }
 
 #qr-code{
