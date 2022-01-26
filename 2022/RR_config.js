@@ -1,7 +1,7 @@
 var config_data = `
 {
   "title":"Scouting PASS 2022",
-  "page_title":"FRC 126 <br>Gael Force Scouting System",
+  "page_title":"FRC 126 <br>Gael Force <br>Scouting System",
   "elements":{
     "prematch": {
       "Scouter Initials": {
